@@ -1,0 +1,49 @@
+{
+  "name": "dsh-client-ui-skin-inaba-meguru",
+  "version": "0.5.0",
+  "type": "module",
+  "description": "因幡巡主题皮肤（Inaba Meguru skin）for DSH Web: 三档出场强度、深/浅两版照片墙、满屏立绘、设置页。素材走 assets/ 同源路由，官方图需自备（仓库不含）。",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "skin",
+    "theme",
+    "inaba-meguru"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "assets/README.md",
+    "tools",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "assets:wall": "python tools/make_wall.py",
+    "assets:hero": "python tools/make_images.py hero assets/ref-char/3.png",
+    "assets:cg": "python tools/make_images.py cg assets/ref-char/c_070c69eac9dd943c.png",
+    "assets:face": "python tools/make_images.py face assets/ref-char/3.png"
+  }
+}

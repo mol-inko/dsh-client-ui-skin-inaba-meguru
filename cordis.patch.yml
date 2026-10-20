@@ -1,0 +1,6 @@
+# 因幡巡主题皮肤：作为一个独立 row 插入 web 插件阵容。
+# 与 @dsh-external/dsh-client-ui-skin-maid-atelier 并存 —— 两边都在「设置 → 插件」
+# 各占一行，想换哪套就开关哪一行，不需要卸载。
+- insert:
+    - id: ui-skin-inaba-meguru
+      name: 'dsh-client-ui-skin-inaba-meguru'

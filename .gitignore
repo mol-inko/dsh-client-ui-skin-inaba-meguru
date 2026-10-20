@@ -1,0 +1,21 @@
+# 素材不入库（用户自备官方图）
+assets/*.webp
+assets/*.png
+assets/ref-char/
+tools/_preview/
+
+# 图标也由 make_images.py face 从自备图生成，不入库
+icon.png
+
+# 历史实验脚本（不随发布版分发；正式工具在 tools/）
+_*.cjs
+_*.py
+_*.gif
+_*.webp
+_*.png
+_bg*.webp
+_petpet*.gif
+
+# 本地备份
+*.bak-*
+*.orig
