@@ -25,8 +25,21 @@
 
 ## 📦 安装 / Install
 
+**从 GitHub 安装（推荐）**
+
 ```bash
-# DSH 0.2.x：本地目录安装
+dsh plugin --profile web add github:mol-inko/dsh-client-ui-skin-inaba-meguru
+```
+
+想固定到某个提交（可复现）：
+
+```bash
+dsh plugin --profile web add github:mol-inko/dsh-client-ui-skin-inaba-meguru#<commit-sha>
+```
+
+**从本地目录安装**
+
+```bash
 dsh plugin --profile web add /path/to/dsh-client-ui-skin-inaba-meguru
 ```
 
