@@ -19,19 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-NOTE ON ART ASSETS / 素材说明
-
-This license covers the code only. The repository intentionally does NOT
-contain any character artwork: all images under `assets/` are provided by the
-user at runtime and are excluded from this repository via .gitignore.
-
-The skin is fan-made and non-commercial. "Inaba Meguru" (因幡巡) and the
-related artwork belong to Yuzusoft (柚子社) / "Sanoba Witch" (魔女的夜宴).
-This project is not affiliated with or endorsed by Yuzusoft or DeepSeek.
-
-本许可只覆盖代码。仓库**不含任何角色素材**：`assets/` 下的图片由使用者
-自行准备、经 .gitignore 排除。本皮肤为同人非商业作品，「因幡巡」及原作
-美术版权归柚子社所有，与官方无关。
